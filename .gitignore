@@ -1,6 +1,28 @@
-*.log
-.DS_Store
+# IntelliJ IDEA
 .idea/
 *.iml
-.vscode/
-*.class
+
+# 编译输出
+out/
+target/
+
+# Maven
+.mvn/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Gradle
+.gradle/
+build/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# 日志文件
+*.log
+
+# 临时文件
+*.swp
